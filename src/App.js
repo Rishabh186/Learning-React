@@ -11,7 +11,7 @@ const App=()=>{
      </header>
      <h2>Current value of count is {count}</h2>
      <button onClick={()=>setCount(0)}>Reset Counter</button>
-     <button onClick={()=>count>=10?"":setCount(count+1)}>Increase Counter</button>
+     <button onClick={()=>count>=50?"":setCount(count+1)}>Increase Counter</button>
      <button onClick={()=>count<=0 ?"":setCount(count-1)}>Decrease Counter</button>
     </div>
   )
